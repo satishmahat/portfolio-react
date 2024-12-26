@@ -19,23 +19,23 @@ const Navbar = () => {
             x:0,
             transition:{
                 stiffness: 20,
-                damping: 15
+                damping: 10
             }
         },
         closed:{
             x:'-100%',
             transition:{
                 stiffness: 20,
-                damping: 15
+                damping: 10
             }
         }  
     }
 
   return (
     <div className='fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50 text-gray-200'>
-         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray text-xl items-center px-12 h-20'>
+         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray text-xl items-center px-7 h-20'>
             
-            <a href="#" className='text-2xl'>SATISH</a>
+            <a href="#" className='text-3xl z-50' onClick={closeNav}>SATISH</a>
 
             <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
                 <li><Link to='skills' smooth={true} offset={50} duration={500}>About</Link></li>

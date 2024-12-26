@@ -1,4 +1,4 @@
-import React , {useEffect , useState} from 'react'
+import React from 'react'
 import profilepic from "../assets/sm.png"
 import {TypeAnimation} from "react-type-animation"
 import {motion} from 'framer-motion'
@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <div>
     <div className='mt-28 max-w-[1200px] mx-auto relative'>
-        <div className='grid md:grid-cols-2 place-items-center gap-8'>
+        <div className='grid md:grid-cols-2 place-items-center gap-8 px-7'>
             <motion.div
                 initial={{opacity:0,y:-50}}
                 whileInView={{opacity:1,y:0}}
@@ -35,7 +35,7 @@ const Hero = () => {
                     ]}
                     speed={50}
                     repeat={Infinity}
-                    className='font-bold text-gray-400 text-2xl md:text-5xl italic '
+                    className='font-bold text-red-800 opacity-70 text-2xl md:text-5xl italic '
                 />
 
                 <motion.p
@@ -46,7 +46,7 @@ const Hero = () => {
                     className='text-gray-200 md:text-7xl text-5xl tracking-tight mb-4'
                 >
                     HEY, I AM <br />
-                    <span className='text-purple-500'>SATISH MAHAT</span>
+                    <span>SATISH MAHAT</span>
                 </motion.p>
 
                 <motion.p
@@ -66,17 +66,17 @@ const Hero = () => {
                     transition={{duration:1, delay:1.5}}
                     className='flex flex-row items-center gap-4 my-4 md:mb-0'
                 >
-                        <motion.button whileHover={{scale:1.05,boxShadow:"0px 0px 8px rgba(0,0,0,0.3)"}}
-                            className='z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl'
+                        <motion.button whileHover={{scale:1.02,boxShadow:"0px 0px 8px rgba(0,0,0,0.3)"}}
+                            className='z-10 cursor-pointer font-bold text-gray-300 md:w-auto p-3 border border-red-700 rounded-2xl text-[18px]'
                         >
                             Download CV
                         </motion.button>
 
-                        <div className='flex gap-4 flex-row text-4xl md:text-6xl text-purple-400 z-20'>
-                            <motion.a whileHover={{scale:1.2}} href='#'>
+                        <div className='flex gap-4 flex-row text-5xl text-red-700 z-20'>
+                            <motion.a whileHover={{scale:1.1}} href='#'>
                                 <AiOutlineGithub/>
                             </motion.a>
-                            <motion.a whileHover={{scale:1.2}} href='#'>
+                            <motion.a whileHover={{scale:1.1}} href='#'>
                                 <AiOutlineLinkedin/>
                             </motion.a>
                         </div>
@@ -95,19 +95,20 @@ const Hero = () => {
             />
         </div>
 
+
+        <p className='text-gray-200 flex flex-row text-4xl px-10 md:px-0 w-full justify-center items-center md:pt-24 pt-12'>My Tech Stack</p>        
         <motion.div
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             viewport={{once: true}}
             transition={{duration:1, delay:2}}
-            className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
+            className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center md:pb-20 pb-12 md:pt-4 pt-2"
         >
-            <p className='text-gray-200 mr-6'>My Tech Stack</p>
-            <DiHtml5 className='text-orange-600 mx-2'/>
-            <DiCss3 className='text-blue-600 mx-2'/>
-            <DiJavascript1 className='text-yellow-500 mx-2'/>
-            <DiReact className='text-blue-600 mx-2'/>
-            <DiNodejsSmall className='text-green-600 mx-2'/>
+            <DiHtml5 className='text-orange-600 mx-1'/>
+            <DiCss3 className='text-blue-600 mx-1'/>
+            <DiJavascript1 className='text-yellow-500 mx-1'/>
+            <DiReact className='text-blue-600 mx-1'/>
+            <DiNodejsSmall className='text-green-600 mx-1'/>
         </motion.div>
 
     </div>
