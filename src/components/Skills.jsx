@@ -35,15 +35,15 @@ const skills =[
 
 const Skills = () => {
   return (
-    <div className='flex flex-col justify-content px-7 text-gray-200 py-7 md:py-7' id='skills'>
-        <h2 className="text-4xl font-bold mb-4 text-center">Skills</h2>
+    <div className='flex flex-col justify-content px-7 text-gray-200 py-7 md:py-7'>
+        <h2 className="text-5xl font-bold mb-4 text-center">Skills</h2>
         <p className='text-center mb-7'>
             I worked on various frontend and fullstack projects.
         </p>
         
-        <div className='flex flex-col md:flex-row justify-center sapce-y-8 md:space-y-0 md:space-x-8 max-w-[1000px] mx-auto gap-8'>
+        <div className='flex flex-col md:flex-row justify-center sapce-y-8 md:space-y-0 max-w-[1000px] mx-auto gap-12'>
             {skills.map((skill,index) => (
-                <div key={index} className='border border-red-500 p-6 rounded-lg bg-red-700/10 shadow-lg w-full md:w-1/2'>
+                <div key={index} className='border border-red-700 p-6 rounded-lg bg-red-500/10 shadow-lg w-full md:w-1/2'>
                     <h3 className='text-3xl mb-5 text-center'>{skill.category}</h3>
                     <div className='grid grid-cols-2 gap-4'>
                         {skill.technologies.map((tech,idx) =>(

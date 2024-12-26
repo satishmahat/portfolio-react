@@ -18,7 +18,7 @@ import{
 const Hero = () => {
   return (
     <div>
-    <div className='mt-28 max-w-[1200px] mx-auto relative'>
+    <div className='mt-28 max-w-[1200px] mx-auto relative' id='home'>
         <div className='grid md:grid-cols-2 place-items-center gap-8 px-7'>
             <motion.div
                 initial={{opacity:0,y:-50}}
@@ -56,14 +56,14 @@ const Hero = () => {
                     transition={{duration:1, delay:1}}
                     className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-3xl text-lg mb-6'
                 >
-                    I am a passionate fullstack developer with experience in few projects.
+                    I am a passionate fullstack developer with few projects to showcase.
                 </motion.p>
 
                 <motion.div
                     initial={{opacity:0,y:50}}
                     whileInView={{opacity:1,y:0}}
                     viewport={{once: true}}
-                    transition={{duration:1, delay:1.5}}
+                    transition={{duration:1, delay:1.2}}
                     className='flex flex-row items-center gap-4 my-4 md:mb-0'
                 >
                         <motion.button whileHover={{scale:1.02,boxShadow:"0px 0px 8px rgba(0,0,0,0.3)"}}
@@ -101,8 +101,8 @@ const Hero = () => {
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             viewport={{once: true}}
-            transition={{duration:1, delay:2}}
-            className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center md:pb-20 pb-12 md:pt-4 pt-2"
+            transition={{duration:1, delay:0.2}}
+            className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center md:pb-20 pb-5 md:pt-4 pt-2"
         >
             <DiHtml5 className='text-orange-600 mx-1'/>
             <DiCss3 className='text-blue-600 mx-1'/>
