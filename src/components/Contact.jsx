@@ -16,7 +16,7 @@ const Contact = () => {
                 <div className="text-gray-200 my-3">
                     <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
                     <p className="text-justify leading-7 mx-auto text-gray-300">
-                    A Computer Science student with exposure in C, C++, HTML,CSS,JS,REACT. I am currently learning Node and aspiring to become a skilled MERN stack developer. Dedicated to continuous growth, strong problem-solving skills, and an eye for detail. A driven Computer Science Student and an aspiring Web Developer.
+                    A Computer Science student with exposure in C, C++, HTML, CSS, JS, REACT. I am currently learning Node and aspiring to become a skilled MERN stack developer. Dedicated to continuous growth, strong problem-solving skills, and an eye for detail. A driven Computer Science Student and an aspiring Web Developer.
                     </p>
                 </div>
 

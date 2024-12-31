@@ -14,6 +14,9 @@ import{
     DiReact
 } from 'react-icons/di'
 
+import pdfFile from '../assets/Satish-Resume.pdf';
+
+
 
 const Hero = () => {
   return (
@@ -69,14 +72,14 @@ const Hero = () => {
                         <motion.button whileHover={{scale:1.02,boxShadow:"0px 0px 8px rgba(0,0,0,0.3)"}}
                             className='z-10 cursor-pointer font-bold text-gray-300 md:w-auto p-3 border border-red-700 rounded-2xl text-[18px]'
                         >
-                            Download CV
+                            <a href={pdfFile} download="Satish-Resume.pdf">Download CV</a>
                         </motion.button>
 
                         <div className='flex gap-4 flex-row text-5xl text-red-700 z-20'>
-                            <motion.a whileHover={{scale:1.1}} href='#'>
+                            <motion.a whileHover={{scale:1.1}} href='https://github.com/satishmahat' target="_blank">
                                 <AiOutlineGithub/>
                             </motion.a>
-                            <motion.a whileHover={{scale:1.1}} href='#'>
+                            <motion.a whileHover={{scale:1.1}} href='https://www.linkedin.com/in/satishmahat/' target="_blank">
                                 <AiOutlineLinkedin/>
                             </motion.a>
                         </div>

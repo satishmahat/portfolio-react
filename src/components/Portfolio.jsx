@@ -12,8 +12,8 @@ const projects = [
         title: "Website of OSD2",
         description: "A website for a company using React.",
         links: {
-            site: "#",
-            github: "#"
+            site: "https://oshosustainable.netlify.app/",
+            github: "https://github.com/satishmahat/OSD2"
         }
     },
     {
@@ -21,8 +21,8 @@ const projects = [
         title: "Website of Grace Clinc",
         description: "A website for a company using React.",
         links: {
-            site: "#",
-            github: "#"
+            site: "https://gracedentalcare.netlify.app/",
+            github: "https://github.com/satishmahat/grace-react"
         }
     },
     {
@@ -30,8 +30,8 @@ const projects = [
         title: "Personal Website",
         description: "A portfolio website using React",
         links: {
-            site: "#",
-            github: "#"
+            site: "https://satishmahat.github.io/portfolio-react/",
+            github: "https://github.com/satishmahat/portfolio-react"
         }
     },
     {
@@ -40,7 +40,7 @@ const projects = [
         description: "A weather app using JavaScript.",
         links: {
             site: "#",
-            github: "#"
+            github: "https://github.com/satishmahat/portfolio-react/js-weather-app"
         }
     },
 ]
@@ -74,8 +74,8 @@ const Portfolio = () => {
                     <h3 className='text-2xl font-semibold text-gray-200'>{project.title}</h3>
                     <p className='text-gray-300 mb-2'>{project.description}</p>
                     <div className='flex space-x-4 mb-4 md:mb-0'>
-                        <a href={project.links.site} className='px-4 py-2 bg-red-700 text-gray-200 rounded-lg hover:bg-red-800 transition duration-300'>View Site</a>
-                        <a href={project.links.github} className='px-3 py-3 bg-red-700 text-gray-200 rounded-lg hover:bg-red-800 transition duration-300 '><AiOutlineGithub/></a>
+                        <a href={project.links.site} target='_blank' className='px-4 py-2 bg-red-700 text-gray-200 rounded-lg hover:bg-red-800 transition duration-300'>View Site</a>
+                        <a href={project.links.github} target='_blank' className='px-3 py-3 bg-red-700 text-gray-200 rounded-lg hover:bg-red-800 transition duration-300 '><AiOutlineGithub/></a>
                     </div>
                 </motion.div>
             </div>

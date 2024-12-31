@@ -20,16 +20,16 @@ const Footer = () => {
             Connect with me to bring ideas to life.
           </p>
           <div className="flex gap-6 text-red-600 text-2xl">
-            <a href="#" aria-label="GitHub">
+            <a href="https://github.com/satishmahat" aria-label="GitHub" target="_blank">
               <FaGithub />
             </a>
-            <a href="#" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/satishmahat/" aria-label="LinkedIn" target="_blank">
               <FaLinkedin />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="https://instagram.com/satishmahat/" aria-label="Instagram" target="_blank">
               <FaInstagram />
             </a>
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com/profile.php?id=100009798333398" aria-label="Facebook" target="_blank">
               <FaFacebook />
             </a>
           </div>
@@ -40,17 +40,17 @@ const Footer = () => {
           <h4 className="text-2xl text-red-600 font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm underline">
             <li>
-              <a href="#home" className="hover:text-red-400 transition">
+              <a href="#" className="hover:text-red-400 transition">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-red-400 transition">
+              <a href="#contact" className="hover:text-red-400 transition">
                 About
               </a>
             </li>
             <li>
-              <a href="#projects" className="hover:text-red-400 transition">
+              <a href="#portfolio" className="hover:text-red-400 transition">
                 Projects
               </a>
             </li>
