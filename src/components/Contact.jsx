@@ -51,7 +51,7 @@ const Contact = () => {
                 viewport={{once:true}}
                 transition={{duration:1}}
 
-                action="https://getform.io/f/placeYourEndpointHere"
+                action="https://getform.io/f/bzyyemqa"
                 method="POST"
                 className=" max-w-6xl pt-5 md:p-12"
                 id="form"
