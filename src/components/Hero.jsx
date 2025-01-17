@@ -7,8 +7,9 @@ import {
     AiOutlineLinkedin
 } from 'react-icons/ai'
 import{
-    DiCss3,
+    DiMongodb,
     DiHtml5,
+    DiCss3,
     DiJavascript1,
     DiNodejsSmall,
     DiReact
@@ -112,6 +113,7 @@ const Hero = () => {
             <DiJavascript1 className='text-yellow-500 mx-1'/>
             <DiReact className='text-blue-600 mx-1'/>
             <DiNodejsSmall className='text-green-600 mx-1'/>
+            <DiMongodb className='text-green-600 mx-1'/>
         </motion.div>
 
     </div>

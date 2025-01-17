@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 const Contact = () => {
   return (
-    <div className="px-7 max-w-[1200px] mx-auto my-12 " id="contact">
+    <div className="px-7 max-w-[1200px] mx-auto my-6 " id="contact">
         {/* <Reveal> */}
         <div className="grid md:grid-cols-2 place-items-center">
             <motion.div

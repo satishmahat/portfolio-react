@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <motion.div 
                     initial={{opacity:0,x: index % 2 !== 0 ? 40 : -40}}
                     whileInView={{opacity:1,x:0}}
-                    transition={{duration:1}}
+                    transition={{duration:1.4}}
                     className='w-full md:w-1/2 '
                 >
                     <img 
@@ -67,7 +67,7 @@ const Portfolio = () => {
                 <motion.div 
                     initial={{opacity:0,x: index % 2 !== 0 ? -40 : 40}}
                     whileInView={{opacity:1,x:0}} 
-                    transition={{duration:1}}
+                    transition={{duration:1.4}}
                     className={`w-full md:w-1/2 pt-4 md:p-4 flex flex-col justify-center ${index % 2 !== 0 ? 'md:items-end':''}`}
                 >
 
