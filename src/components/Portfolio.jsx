@@ -53,7 +53,7 @@ const Portfolio = () => {
         {projects.map((project,index) => (
             <div key={index} className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse':''} mb-10 border-b border-red-700 rounded-md md:border-0`}>
                 <motion.div 
-                    initial={{opacity:0,x: index % 2 !== 0 ? 40 : -40}}
+                    initial={{opacity:0,x: index % 2 !== 0 ? 20 : -20}}
                     whileInView={{opacity:1,x:0}}
                     transition={{duration:1.4}}
                     className='w-full md:w-1/2 '
@@ -65,7 +65,7 @@ const Portfolio = () => {
                     />
                 </motion.div>
                 <motion.div 
-                    initial={{opacity:0,x: index % 2 !== 0 ? -40 : 40}}
+                    initial={{opacity:0,x: index % 2 !== 0 ? -20 : 20}}
                     whileInView={{opacity:1,x:0}} 
                     transition={{duration:1.4}}
                     className={`w-full md:w-1/2 pt-4 md:p-4 flex flex-col justify-center ${index % 2 !== 0 ? 'md:items-end':''}`}

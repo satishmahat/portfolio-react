@@ -8,7 +8,7 @@ const Contact = () => {
         {/* <Reveal> */}
         <div className="grid md:grid-cols-2 place-items-center">
             <motion.div
-                initial={{opacity:0, x:-50}}
+                initial={{opacity:0, x:-20}}
                 whileInView={{opacity:1,x:0}}
                 viewport={{once:true}}
                 transition={{duration:1}}
@@ -46,7 +46,7 @@ const Contact = () => {
             </motion.div>
 
             <motion.form
-                initial={{opacity:0, x:50}}
+                initial={{opacity:0, x:20}}
                 whileInView={{opacity:1,x:0}}
                 viewport={{once:true}}
                 transition={{duration:1}}
