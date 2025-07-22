@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-12">
+    <footer className="bg-black text-gray-300 py-12">
       <motion.div 
         initial={{opacity:0}}
         whileInView={{opacity:1}}

@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50 text-gray-200'>
-         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray text-xl items-center px-7 h-20'>
+         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray text-xl items-center px-7 h-16 lg:h-20'>
             
             <a href="#" className='text-3xl z-50 hover:text-red-700' onClick={closeNav}>SATISH</a>
 
